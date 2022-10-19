@@ -2,26 +2,24 @@
   margin: 0px;
   padding: 0px;
 }
+body {
+  background-color: #b6b6b6;
+}
 .container {
   display: flex;
   flex-direction: row;
-  height: 100vh;
   box-sizing: border-box;
   overflow: auto;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 .left__sidebar {
   flex: 2;
   background-color: #35354d;
-  height: 100%;
   display: flex;
   flex-direction: column;
   padding-left: 50px;
   box-sizing: border-box;
-}
-.right__content {
-  flex: 6;
-  background-color: white;
-  height: 100%;
 }
 
 .profile__image {
@@ -66,4 +64,60 @@
 .unStyledList > li {
   color: white;
   font-size: 18px;
+}
+
+.right__content {
+  flex: 6;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 12px;
+}
+
+.my__name {
+  font-size: 30px;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.my__bio {
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.bio__desc {
+  margin-top: 20px;
+}
+.work__exp__text {
+  border-bottom: 2px solid #000;
+  padding-bottom: 7px;
+  width: 70%;
+}
+
+.experiance__container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  margin-top: 20px;
+  gap: 30px;
+  border-left: 2px solid #000;
+}
+
+.experience__header {
+  font-size: 15px;
+  font-weight: 500;
+}
+.exp__time {
+  font-weight: 500;
+  font-size: 14px;
+}
+.exp__desc {
+  margin-top: 10px;
+  text-align: justify;
+}
+.exp__respons {
+  margin-top: 10px;
+  padding-left: 20px;
 }
