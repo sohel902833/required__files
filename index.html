@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      /* .container {
+        background-color: red;
+        height: 400px;
+        display: flex;
+      }
+
+      .left {
+        background-color: yellow;
+        flex: 1;
+      }
+      .middle {
+        background-color: blue;
+        flex: 3;
+      }
+      .right {
+        background-color: green;
+        flex: 1;
+      } */
+      .container {
+        height: 200px;
+        background-color: green;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+      }
+      .container > div {
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        background-color: red;
+      }
+      .menu {
+        height: 100px;
+      }
+      .contact {
+        height: 120px;
+      }
+      .box {
+        height: 400px;
+        width: 400px;
+        background-color: purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box_inner {
+        height: 40px;
+        width: 40px;
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="container">
+      <div class="left">Left</div>
+      <div class="middle">Middle</div>
+      <div class="right">Right</div>
+    </div> -->
+
+    <div class="container">
+      <div>Home</div>
+      <div class="menu">Menu</div>
+      <div>About</div>
+      <div class="contact">Contact</div>
+    </div>
+
+    <div class="box">
+      <div class="box_inner">Center</div>
+    </div>
+  </body>
+</html>
