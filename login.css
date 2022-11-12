@@ -17,6 +17,8 @@
   background-color: white;
   border-radius: 10px;
   padding: 40px;
+
+  overflow: scroll;
 }
 
 .signup__heading {
