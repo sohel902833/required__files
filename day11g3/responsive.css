@@ -1,0 +1,64 @@
+ /*  Responsive Part Start */
+ @media only screen and (max-width: 600px) {
+    .slider{
+        width: 600px;
+    }
+    /* .slider{ 
+        width: 500px;
+          } */
+.slider h1{
+    font-size: 21px;
+}
+.slider p{
+    left: 35px;
+    width: 240px;
+}
+.slider p{
+   
+        top: 42%;
+        left: 40%;
+       
+    }
+    .slider a{
+      
+        top: 53%;
+        left: 58%;
+      
+    }
+   /* Herto Part Start */
+.hero{
+    width: 120%;
+    
+    }
+    Span{
+        color: rgb(143, 45, 130);
+    }
+   
+    .card img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    
+    }
+    .service-box{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+        gap: 5px;
+    }
+    .card{
+        background:linear-gradient(hwb(0 16% 71%),rgba(119, 197, 197, 0.89));
+        padding: 80px;
+    }
+    .card a{
+    text-decoration: none;
+    color: 1px solid rgb(68, 65, 65);
+    padding: 10px 15px;
+    }
+    .card a :hover{
+        background: rgb(187, 65, 65);
+        color: rgb(221, 178, 178);
+    }
+    }
+    
+        
+    
