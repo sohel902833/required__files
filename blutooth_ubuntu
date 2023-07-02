@@ -1,0 +1,17 @@
+
+Thanks for your help ! Make sure you restart pulseaudio service after installing pulseaudio-module-bluetooth using systemctl --user restart pulseaudio.service – 
+wlarcheveque
+ Oct 6, 2021 at 14:18
+This worked for me on Ubuntu 22.04.2 LTS. Thanks! – 
+onit
+ Apr 15 at 13:21
+Add a comment
+3
+
+if not already installed install pulseaudio-module-bluetooth, this will add the required pulse audio sink that is needed.
+
+sudo apt-get install pulseaudio-module-bluetooth
+Afterwards restart pulse
+
+pulseaudio -k
+pulseaudio --start
